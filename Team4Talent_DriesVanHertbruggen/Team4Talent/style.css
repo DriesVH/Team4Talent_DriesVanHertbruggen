@@ -1,0 +1,86 @@
+﻿body 
+{
+     text-align:center;
+     background-color:#252B33;
+     color:#FFFFFF;
+}
+
+.jumbotron
+{
+    background-color:#40454B;
+}
+
+.imgitem
+{
+    width:250px;
+    height:250px;
+
+}
+
+.itembutton, button{
+    background-color: #0AD8B7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight:400;
+}
+
+.itembutton:hover, button:hover
+{
+    background-color: #09c5a6;
+}
+
+#orderbutton, #switchorder
+{
+    margin: 25px 0;
+}
+
+.itemdecrease, .itemincrease
+{
+    width:35px;
+    height:35px;
+    padding:0;
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+h1
+{
+    font-size:6.5em;
+}
+h2
+{
+    font-size:3.5em;
+}
+
+.itemamount
+{
+    font-size:1.2em;
+}
+
+#confirmorder *
+{
+    margin: 5px 10px;
+}
+
+table, #orderlist{
+    table-layout:fixed;
+    margin:25px 250px;
+}
+
+table tr
+{
+    width:100%;
+}
+
+table tr td
+{
+    width:20%;
+}
